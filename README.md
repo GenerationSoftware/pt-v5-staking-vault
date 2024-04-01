@@ -1,16 +1,8 @@
-# Foundry template
+# PoolTogether Staking Vault
 
-Template to kickstart a Foundry project.
+## Overview
 
-## Getting started
-
-The easiest way to get started is by clicking the [Use this template](https://github.com/GenerationSoftware/foundry-template/generate) button at the top right of this page.
-
-If you prefer to go the CLI way:
-
-```
-forge init my-project --template https://github.com/GenerationSoftware/foundry-template
-```
+The staking vault is an ERC4626 vault that takes deposits of an underlying asset and mints shares at a 1:1 ratio. The vault has no yield source and will always redeem shares at a 1:1 ratio with assets.
 
 ## Development
 
@@ -26,20 +18,6 @@ Install dependencies:
 
 ```
 npm i
-```
-
-### Env
-
-Copy `.envrc.example` and write down the env variables needed to run this project.
-
-```
-cp .envrc.example .envrc
-```
-
-Once your env variables are setup, load them with:
-
-```
-direnv allow
 ```
 
 ### Compile
@@ -66,7 +44,7 @@ open coverage/index.html
 
 ### Code quality
 
-[Husky](https://typicode.github.io/husky/#/) is used to run [lint-staged](https://github.com/okonet/lint-staged) and tests when committing.
+[Husky](https://typicode.github.io/husky/#/) is used to run tests when committing.
 
 [Prettier](https://prettier.io) is used to format TypeScript and Solidity code. Use it by running:
 
@@ -87,5 +65,3 @@ A default Github Actions workflow is setup to execute on push and pull request.
 It will build the contracts and run the test coverage.
 
 You can modify it here: [.github/workflows/coverage.yml](.github/workflows/coverage.yml)
-
-For the coverage to work, you will need to setup the `MAINNET_RPC_URL` repository secret in the settings of your Github repository.
