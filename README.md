@@ -4,6 +4,12 @@
 
 The staking vault is an ERC4626 vault that takes deposits of an underlying asset and mints shares at a 1:1 ratio. The vault has no yield source and will always redeem shares at a 1:1 ratio with assets.
 
+## Deployments
+
+| Network | Contract                 | Deployment Address                                                                                                    |
+| ------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| Base    | PrizeStakingVaultFactory | [0x48492f83D9e1d848d33a461D49a2071A6FdcC037](https://basescan.org/address/0x48492f83d9e1d848d33a461d49a2071a6fdcc037) |
+
 ## Development
 
 ### Installation
