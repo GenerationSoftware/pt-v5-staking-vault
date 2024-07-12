@@ -6,9 +6,11 @@ The staking vault is an ERC4626 vault that takes deposits of an underlying asset
 
 ## Deployments
 
-| Network | Contract                 | Deployment Address                                                                                                    |
-| ------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| Base    | PrizeStakingVaultFactory | [0x48492f83D9e1d848d33a461D49a2071A6FdcC037](https://basescan.org/address/0x48492f83d9e1d848d33a461d49a2071a6fdcc037) |
+| Network  | Contract                 | Deployment Address                                                                                                               |
+| -------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| Base     | PrizeStakingVaultFactory | [0x48492f83D9e1d848d33a461D49a2071A6FdcC037](https://basescan.org/address/0x48492f83d9e1d848d33a461d49a2071a6fdcc037)            |
+| Arbitrum | PrizeStakingVaultFactory | [0x9468ead4C425DeedeD5c65723fDC6fce6D3F3F20](https://arbiscan.io/address/0x9468ead4c425deeded5c65723fdc6fce6d3f3f20)             |
+| Optimism | PrizeStakingVaultFactory | [0x7c4626ecC134AE1Dbd46c82Bd94Ae2469302acF3](https://optimistic.etherscan.io/address/0x7c4626ecc134ae1dbd46c82bd94ae2469302acf3) |
 
 ## Development
 
