@@ -13,6 +13,7 @@ The staking vault is an ERC4626 vault that takes deposits of an underlying asset
 | Optimism | PrizeStakingVaultFactory | [0x7c4626ecC134AE1Dbd46c82Bd94Ae2469302acF3](https://optimistic.etherscan.io/address/0x7c4626ecc134ae1dbd46c82bd94ae2469302acf3) |
 | Scroll   | PrizeStakingVaultFactory | [0xe85507D9F27b97f649Cd738DBc25D7Ea287E5c27](https://scrollscan.com/address/0xe85507d9f27b97f649cd738dbc25d7ea287e5c27)          |
 | Gnosis   | PrizeStakingVaultFactory | [0x162cC33B426471c9df0D34A0e3e0d39216e91E65](https://gnosisscan.io/address/0x162cC33B426471c9df0D34A0e3e0d39216e91E65)           |
+| World    | PrizeStakingVaultFactory | [0xABBCEF28C7Be91b50CE5CF7ADF96E7636d2E4713](https://worldscan.org/address/0xabbcef28c7be91b50ce5cf7adf96e7636d2e4713)           |
 
 ## Development
 
